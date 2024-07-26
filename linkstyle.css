@@ -1,0 +1,109 @@
+/* Usage of classes to seperate the different elements in the website. We use .classname{} to add styling to a particular class. */
+
+
+/* applies styling to all of the elements inside body tag. */
+body{
+    margin: 0%;
+    font-family: sans-serif;
+  }
+
+
+/* styling the navigation bar */
+.nav {
+    background-color: #e3e6f3;
+    overflow: hidden;    
+    padding-right: 20px;
+    padding: 20px 80px;
+    height: 50px;
+    position: fixed;
+    width: 90%;
+    
+
+
+/* Style of the navigation bar when hovering and when active.  */
+}
+.nav :hover, .nav:active{
+  color: darkcyan;
+}
+
+
+/* Styling the logo */
+.logo{
+  margin-left: none;
+  border: none;
+  display: block;
+  height: 50px;
+  width: 150px;
+  float: left;
+}
+
+
+
+/* Styling the individual contents of the nav bar */
+.nav_home_page, .nav_product_page, .nav_research_page, .nav_about_us, .nav_blog_page{
+    float: right;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+
+/* Styling the product details */
+.productprice{
+  color: darkcyan;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+
+
+.linkimage1, .linkimage2{
+  width: 300px;
+  margin-left: 550px;
+  padding-top: 100px;
+}
+
+
+.productname{
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 400px;
+}
+
+
+.productDetails{
+    margin-left: 400px;
+}
+
+
+.productprice{
+    font-size: 25px;
+}
+
+
+.productspecs{
+    font-size: 20px;
+}
+
+
+/* Styling the discount strike color to be red */
+.discount_strike{
+    color: red;
+}
+
+
+.linkimage2{
+  width: 200px;
+}
+
+
+.available{
+  font-weight: bolder;
+}
+
+
+.productspecs{
+  font-weight: bold;
+}

@@ -1,0 +1,199 @@
+/* Usage of classes to seperate the different elements in the website. We use .classname{} to add styling to a particular class. */
+
+
+/* applies styling to all of the elements inside body tag. */
+body{
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+
+/* applies styling to all of the elements inside the anchor tag */
+a{
+  text-decoration:none;
+  color: black;
+}
+
+
+/* styling the navigation bar */
+.nav {
+  background-color: #e3e6f3;
+  overflow: hidden;    
+  padding: 20px 80px;
+  height: 50px;
+  position: fixed;
+  width: 90%;
+
+}
+
+
+/* Style of the navigation bar when hovering and when active.  */
+.nav :hover, .nav:active{
+color:darkcyan;
+}
+
+
+/* Styling the logo */
+.logo{
+margin-left: none;
+border: none;
+display: block;
+height: 50px;
+width: 150px;
+float: left;
+}
+
+
+/* Styling the individual contents of the nav bar */
+.nav_home_page, .nav_product_page, .nav_research_page, .nav_about_us, .nav_blog_page{
+  float: right;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 14px 20px;
+}
+
+
+/* Styling the different sections  */
+.sale_section , .featured_section,.new_section ,.all_section{
+    text-align: center ;
+    
+  }
+
+
+.sale_section_text, .featured_section_text,.new_section_text ,.all_section_text
+{
+    font-weight: bold;
+    font-size: 47px;
+    text-align: center;
+    margin: 0;
+}
+
+.sale_section_text{
+  padding-top: 100px;
+}
+.featured_section_description,.sale_section_description,.new_section-description, .all-section_description{
+  color: gray;
+  margin-bottom: 40px;
+}
+
+.product1,.product2,.product3,.product4,.product5,.product6,.product7,.product8, .product9,.product10,.product11,.product12,.product13,.product14 {
+    width: 300px;
+    height: 200px;
+    vertical-align: top;
+    vertical-align: bottom;
+    margin-right: 15px;
+    display: inline-block;
+    margin-bottom: 200px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+  }
+
+
+.productname{
+    width: 300px;
+    font-weight: bold;
+  }
+
+
+.product1image,.product2image,.product3image,.product4image,.product5image,.product6image,.product7image,.product8image,.product9image, .product10image,.product11image,.product12image, .product13image,.product14image {
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+  }
+
+
+.brand{
+    font-size: 12px;
+    color: gray;
+  }
+
+
+.productprice{
+    color: darkcyan;
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  
+  /* Changing the back ground color and the cursor when hovering over the image */
+.product1image:hover,.product2image:hover,.product3image:hover,.product4image:hover,.product5image:hover,.product6image:hover,.product7image:hover,.product8image:hover, .product9image:hover,.product10image:hover, .product11image:hover, .product12image:hover , .product13image:hover , .product14image:hover{
+    background-color:  whitesmoke;
+    cursor: pointer;
+  }
+
+
+  /* Styling the discount strike color to be red */
+.discount_strike{
+    color: red;
+  }
+
+
+/* footer section designing*/
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer .col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+
+}
+
+footer .logo {
+  margin-bottom: 30px;
+}
+
+footer h4 {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+footer p {
+  font-size: 13px;
+  margin: 0 0 8px 0;
+}
+
+footer a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+footer.follow {
+  margin-top: 20px;
+}
+
+footer .follow i {
+  color: skyblue;
+  padding-right: 4px;
+  cursor: pointer;
+}
+
+footer .follow i:hover,
+footer a:hover {
+  color: darkcyan;
+}
+
+footer .payment img {
+  width: 400px;
+  height: 100px;
+}
+
+.copyright {
+  text-align: center;
+}
+.col img{
+  width: 150px;
+  height: 50px;
+}
+.section-p1{
+  padding: 40px 80px;
+}
